@@ -34,83 +34,83 @@ namespace BlueTigerBot.Twitch.EventSub.Webhooks
         };
 
         /// <inheritdoc/>
-        public event EventHandler<ChannelBanArgs>? OnChannelBan;
+        public event AsyncEventHandler<ChannelBanArgs>? OnChannelBan;
         /// <inheritdoc/>
-        public event EventHandler<ChannelCheerArgs>? OnChannelCheer;
+        public event AsyncEventHandler<ChannelCheerArgs>? OnChannelCheer;
         /// <inheritdoc/>
-        public event EventHandler<ChannelFollowArgs>? OnChannelFollow;
+        public event AsyncEventHandler<ChannelFollowArgs>? OnChannelFollow;
         /// <inheritdoc/>
-        public event EventHandler<ChannelGoalBeginArgs>? OnChannelGoalBegin;
+        public event AsyncEventHandler<ChannelGoalBeginArgs>? OnChannelGoalBegin;
         /// <inheritdoc/>
-        public event EventHandler<ChannelGoalEndArgs>? OnChannelGoalEnd;
+        public event AsyncEventHandler<ChannelGoalEndArgs>? OnChannelGoalEnd;
         /// <inheritdoc/>
-        public event EventHandler<ChannelGoalProgressArgs>? OnChannelGoalProgress;
+        public event AsyncEventHandler<ChannelGoalProgressArgs>? OnChannelGoalProgress;
         /// <inheritdoc/>
-        public event EventHandler<ChannelHypeTrainBeginArgs>? OnChannelHypeTrainBegin;
+        public event AsyncEventHandler<ChannelHypeTrainBeginArgs>? OnChannelHypeTrainBegin;
         /// <inheritdoc/>
-        public event EventHandler<ChannelHypeTrainEndArgs>? OnChannelHypeTrainEnd;
+        public event AsyncEventHandler<ChannelHypeTrainEndArgs>? OnChannelHypeTrainEnd;
         /// <inheritdoc/>
-        public event EventHandler<ChannelHypeTrainProgressArgs>? OnChannelHypeTrainProgress;
+        public event AsyncEventHandler<ChannelHypeTrainProgressArgs>? OnChannelHypeTrainProgress;
         /// <inheritdoc/>
-        public event EventHandler<ChannelModeratorArgs>? OnChannelModeratorAdd;
+        public event AsyncEventHandler<ChannelModeratorArgs>? OnChannelModeratorAdd;
         /// <inheritdoc/>
-        public event EventHandler<ChannelModeratorArgs>? OnChannelModeratorRemove;
+        public event AsyncEventHandler<ChannelModeratorArgs>? OnChannelModeratorRemove;
         /// <inheritdoc/>
-        public event EventHandler<ChannelPointsCustomRewardArgs>? OnChannelPointsCustomRewardAdd;
+        public event AsyncEventHandler<ChannelPointsCustomRewardArgs>? OnChannelPointsCustomRewardAdd;
         /// <inheritdoc/>
-        public event EventHandler<ChannelPointsCustomRewardArgs>? OnChannelPointsCustomRewardUpdate;
+        public event AsyncEventHandler<ChannelPointsCustomRewardArgs>? OnChannelPointsCustomRewardUpdate;
         /// <inheritdoc/>
-        public event EventHandler<ChannelPointsCustomRewardArgs>? OnChannelPointsCustomRewardRemove;
+        public event AsyncEventHandler<ChannelPointsCustomRewardArgs>? OnChannelPointsCustomRewardRemove;
         /// <inheritdoc/>
-        public event EventHandler<ChannelPointsCustomRewardRedemptionArgs>? OnChannelPointsCustomRewardRedemptionAdd;
+        public event AsyncEventHandler<ChannelPointsCustomRewardRedemptionArgs>? OnChannelPointsCustomRewardRedemptionAdd;
         /// <inheritdoc/>
-        public event EventHandler<ChannelPointsCustomRewardRedemptionArgs>? OnChannelPointsCustomRewardRedemptionUpdate;
+        public event AsyncEventHandler<ChannelPointsCustomRewardRedemptionArgs>? OnChannelPointsCustomRewardRedemptionUpdate;
         /// <inheritdoc/>
-        public event EventHandler<ChannelPollBeginArgs>? OnChannelPollBegin;
+        public event AsyncEventHandler<ChannelPollBeginArgs>? OnChannelPollBegin;
         /// <inheritdoc/>
-        public event EventHandler<ChannelPollEndArgs>? OnChannelPollEnd;
+        public event AsyncEventHandler<ChannelPollEndArgs>? OnChannelPollEnd;
         /// <inheritdoc/>
-        public event EventHandler<ChannelPollProgressArgs>? OnChannelPollProgress;
+        public event AsyncEventHandler<ChannelPollProgressArgs>? OnChannelPollProgress;
         /// <inheritdoc/>
-        public event EventHandler<ChannelPredictionBeginArgs>? OnChannelPredictionBegin;
+        public event AsyncEventHandler<ChannelPredictionBeginArgs>? OnChannelPredictionBegin;
         /// <inheritdoc/>
-        public event EventHandler<ChannelPredictionEndArgs>? OnChannelPredictionEnd;
+        public event AsyncEventHandler<ChannelPredictionEndArgs>? OnChannelPredictionEnd;
         /// <inheritdoc/>
-        public event EventHandler<ChannelPredictionLockArgs>? OnChannelPredictionLock;
+        public event AsyncEventHandler<ChannelPredictionLockArgs>? OnChannelPredictionLock;
         /// <inheritdoc/>
-        public event EventHandler<ChannelPredictionProgressArgs>? OnChannelPredictionProgress;
+        public event AsyncEventHandler<ChannelPredictionProgressArgs>? OnChannelPredictionProgress;
         /// <inheritdoc/>
-        public event EventHandler<ChannelRaidArgs>? OnChannelRaid;
+        public event AsyncEventHandler<ChannelRaidArgs>? OnChannelRaid;
         /// <inheritdoc/>
-        public event EventHandler<ChannelSubscribeArgs>? OnChannelSubscribe;
+        public event AsyncEventHandler<ChannelSubscribeArgs>? OnChannelSubscribe;
         /// <inheritdoc/>
-        public event EventHandler<ChannelSubscriptionEndArgs>? OnChannelSubscriptionEnd;
+        public event AsyncEventHandler<ChannelSubscriptionEndArgs>? OnChannelSubscriptionEnd;
         /// <inheritdoc/>
-        public event EventHandler<ChannelSubscriptionGiftArgs>? OnChannelSubscriptionGift;
+        public event AsyncEventHandler<ChannelSubscriptionGiftArgs>? OnChannelSubscriptionGift;
         /// <inheritdoc/>
-        public event EventHandler<ChannelSubscriptionMessageArgs>? OnChannelSubscriptionMessage;
+        public event AsyncEventHandler<ChannelSubscriptionMessageArgs>? OnChannelSubscriptionMessage;
         /// <inheritdoc/>
-        public event EventHandler<ChannelUnbanArgs>? OnChannelUnban;
+        public event AsyncEventHandler<ChannelUnbanArgs>? OnChannelUnban;
         /// <inheritdoc/>
-        public event EventHandler<ChannelUpdateArgs>? OnChannelUpdate;
+        public event AsyncEventHandler<ChannelUpdateArgs>? OnChannelUpdate;
         /// <inheritdoc/>
-        public event EventHandler<OnErrorArgs>? OnError;
+        public event AsyncEventHandler<OnErrorArgs>? OnError;
         /// <inheritdoc/>
-        public event EventHandler<DropEntitlementGrantArgs>? OnDropEntitlementGrant;
+        public event AsyncEventHandler<DropEntitlementGrantArgs>? OnDropEntitlementGrant;
         /// <inheritdoc/>
-        public event EventHandler<ExtensionBitsTransactionCreateArgs>? OnExtensionBitsTransactionCreate;
+        public event AsyncEventHandler<ExtensionBitsTransactionCreateArgs>? OnExtensionBitsTransactionCreate;
         /// <inheritdoc/>
-        public event EventHandler<RevocationArgs>? OnRevocation;
+        public event AsyncEventHandler<RevocationArgs>? OnRevocation;
         /// <inheritdoc/>
-        public event EventHandler<StreamOfflineArgs>? OnStreamOffline;
+        public event AsyncEventHandler<StreamOfflineArgs>? OnStreamOffline;
         /// <inheritdoc/>
-        public event EventHandler<StreamOnlineArgs>? OnStreamOnline;
+        public event AsyncEventHandler<StreamOnlineArgs>? OnStreamOnline;
         /// <inheritdoc/>
-        public event EventHandler<UserAuthorizationGrantArgs>? OnUserAuthorizationGrant;
+        public event AsyncEventHandler<UserAuthorizationGrantArgs>? OnUserAuthorizationGrant;
         /// <inheritdoc/>
-        public event EventHandler<UserAuthorizationRevokeArgs>? OnUserAuthorizationRevoke;
+        public event AsyncEventHandler<UserAuthorizationRevokeArgs>? OnUserAuthorizationRevoke;
         /// <inheritdoc/>
-        public event EventHandler<UserUpdateArgs>? OnUserUpdate;
+        public event AsyncEventHandler<UserUpdateArgs>? OnUserUpdate;
 
         /// <inheritdoc/>
         public async Task ProcessNotificationAsync(Dictionary<string, string> headers, Stream body)
@@ -127,39 +127,39 @@ namespace BlueTigerBot.Twitch.EventSub.Webhooks
                 {
                     case "channel.ban":
                         var banNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelBan>>(body, _jsonSerializerOptions);
-                        OnChannelBan?.Invoke(this, new ChannelBanArgs { Headers = headers, Notification = banNotification! });
+                        await (OnChannelBan?.Invoke(this, new ChannelBanArgs { Headers = headers, Notification = banNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.cheer":
                         var cheerNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelCheer>>(body, _jsonSerializerOptions);
-                        OnChannelCheer?.Invoke(this, new ChannelCheerArgs { Headers = headers, Notification = cheerNotification! });
+                        await (OnChannelCheer?.Invoke(this, new ChannelCheerArgs { Headers = headers, Notification = cheerNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.follow":
                         var followNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelFollow>>(body, _jsonSerializerOptions);
-                        OnChannelFollow?.Invoke(this, new ChannelFollowArgs { Headers = headers, Notification = followNotification! });
+                        await (OnChannelFollow?.Invoke(this, new ChannelFollowArgs { Headers = headers, Notification = followNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.goal.begin":
                         var goalBeginNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelGoalBegin>>(body, _jsonSerializerOptions);
-                        OnChannelGoalBegin?.Invoke(this, new ChannelGoalBeginArgs { Headers = headers, Notification = goalBeginNotification! });
+                        await (OnChannelGoalBegin?.Invoke(this, new ChannelGoalBeginArgs { Headers = headers, Notification = goalBeginNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.goal.end":
                         var goalEndNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelGoalEnd>>(body, _jsonSerializerOptions);
-                        OnChannelGoalEnd?.Invoke(this, new ChannelGoalEndArgs { Headers = headers, Notification = goalEndNotification! });
+                        await (OnChannelGoalEnd?.Invoke(this, new ChannelGoalEndArgs { Headers = headers, Notification = goalEndNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.goal.progress":
                         var goalProgressNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelGoalProgress>>(body, _jsonSerializerOptions);
-                        OnChannelGoalProgress?.Invoke(this, new ChannelGoalProgressArgs { Headers = headers, Notification = goalProgressNotification! });
+                        await (OnChannelGoalProgress?.Invoke(this, new ChannelGoalProgressArgs { Headers = headers, Notification = goalProgressNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.hype_train.begin":
                         var hypeTrainBeginNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<HypeTrainBegin>>(body, _jsonSerializerOptions);
-                        OnChannelHypeTrainBegin?.Invoke(this, new ChannelHypeTrainBeginArgs { Headers = headers, Notification = hypeTrainBeginNotification! });
+                        await (OnChannelHypeTrainBegin?.Invoke(this, new ChannelHypeTrainBeginArgs { Headers = headers, Notification = hypeTrainBeginNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.hype_train.end":
                         var hypeTrainEndNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<HypeTrainEnd>>(body, _jsonSerializerOptions);
-                        OnChannelHypeTrainEnd?.Invoke(this, new ChannelHypeTrainEndArgs { Headers = headers, Notification = hypeTrainEndNotification! });
+                        await (OnChannelHypeTrainEnd?.Invoke(this, new ChannelHypeTrainEndArgs { Headers = headers, Notification = hypeTrainEndNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.hype_train.progress":
                         var hypeTrainProgressNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<HypeTrainProgress>>(body, _jsonSerializerOptions);
-                        OnChannelHypeTrainProgress?.Invoke(this, new ChannelHypeTrainProgressArgs { Headers = headers, Notification = hypeTrainProgressNotification! });
+                        await (OnChannelHypeTrainProgress?.Invoke(this, new ChannelHypeTrainProgressArgs { Headers = headers, Notification = hypeTrainProgressNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.moderator.add":
                         var moderatorAddNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelModerator>>(body, _jsonSerializerOptions);
@@ -167,111 +167,100 @@ namespace BlueTigerBot.Twitch.EventSub.Webhooks
                         break;
                     case "channel.moderator.remove":
                         var moderatorRemoveNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelModerator>>(body, _jsonSerializerOptions);
-                        OnChannelModeratorRemove?.Invoke(this, new ChannelModeratorArgs { Headers = headers, Notification = moderatorRemoveNotification! });
+                        await (OnChannelModeratorRemove?.Invoke(this, new ChannelModeratorArgs { Headers = headers, Notification = moderatorRemoveNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.channel_points_custom_reward.add":
                         var customRewardAddNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelPointsCustomReward>>(body, _jsonSerializerOptions);
-                        OnChannelPointsCustomRewardAdd?.Invoke(this, new ChannelPointsCustomRewardArgs { Headers = headers, Notification = customRewardAddNotification! });
+                        await (OnChannelPointsCustomRewardAdd?.Invoke(this, new ChannelPointsCustomRewardArgs { Headers = headers, Notification = customRewardAddNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.channel_points_custom_reward.remove":
                         var customRewardRemoveNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelPointsCustomReward>>(body, _jsonSerializerOptions);
-                        OnChannelPointsCustomRewardRemove?.Invoke(this, new ChannelPointsCustomRewardArgs { Headers = headers, Notification = customRewardRemoveNotification! });
+                        await (OnChannelPointsCustomRewardRemove?.Invoke(this, new ChannelPointsCustomRewardArgs { Headers = headers, Notification = customRewardRemoveNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.channel_points_custom_reward.update":
                         var customRewardUpdateNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelPointsCustomReward>>(body, _jsonSerializerOptions);
-                        OnChannelPointsCustomRewardUpdate?.Invoke(this, new ChannelPointsCustomRewardArgs { Headers = headers, Notification = customRewardUpdateNotification! });
+                        await (OnChannelPointsCustomRewardUpdate?.Invoke(this, new ChannelPointsCustomRewardArgs { Headers = headers, Notification = customRewardUpdateNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.channel_points_custom_reward_redemption.add":
                         var customRewardRedemptionAddNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelPointsCustomRewardRedemption>>(body, _jsonSerializerOptions);
-                        OnChannelPointsCustomRewardRedemptionAdd?.Invoke(this, new ChannelPointsCustomRewardRedemptionArgs { Headers = headers, Notification = customRewardRedemptionAddNotification! });
+                        await (OnChannelPointsCustomRewardRedemptionAdd?.Invoke(this, new ChannelPointsCustomRewardRedemptionArgs { Headers = headers, Notification = customRewardRedemptionAddNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.channel_points_custom_reward_redemption.update":
                         var customRewardRedemptionUpdateNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelPointsCustomRewardRedemption>>(body, _jsonSerializerOptions);
-                        OnChannelPointsCustomRewardRedemptionUpdate?.Invoke(this, new ChannelPointsCustomRewardRedemptionArgs { Headers = headers, Notification = customRewardRedemptionUpdateNotification! });
-                        break;
-                    case "channel.poll.begin":
-                        var pollBeginNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelPollBegin>>(body, _jsonSerializerOptions);
-                        OnChannelPollBegin?.Invoke(this, new ChannelPollBeginArgs { Headers = headers, Notification = pollBeginNotification! });
-                        break;
-                    case "channel.poll.end":
-                        var pollEndNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelPollEnd>>(body, _jsonSerializerOptions);
-                        OnChannelPollEnd?.Invoke(this, new ChannelPollEndArgs { Headers = headers, Notification = pollEndNotification! });
+                        await (OnChannelPointsCustomRewardRedemptionUpdate?.Invoke(this, new ChannelPointsCustomRewardRedemptionArgs { Headers = headers, Notification = customRewardRedemptionUpdateNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.poll.progress":
                         var pollProgressNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelPollProgress>>(body, _jsonSerializerOptions);
-                        OnChannelPollProgress?.Invoke(this, new ChannelPollProgressArgs { Headers = headers, Notification = pollProgressNotification! });
+                        await (OnChannelPollProgress?.Invoke(this, new ChannelPollProgressArgs { Headers = headers, Notification = pollProgressNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.prediction.begin":
                         var predictionBeginNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelPredictionBegin>>(body, _jsonSerializerOptions);
-                        OnChannelPredictionBegin?.Invoke(this, new ChannelPredictionBeginArgs { Headers = headers, Notification = predictionBeginNotification! });
+                        await (OnChannelPredictionBegin?.Invoke(this, new ChannelPredictionBeginArgs { Headers = headers, Notification = predictionBeginNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.prediction.end":
                         var predictionEndNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelPredictionEnd>>(body, _jsonSerializerOptions);
-                        OnChannelPredictionEnd?.Invoke(this, new ChannelPredictionEndArgs { Headers = headers, Notification = predictionEndNotification! });
+                        await (OnChannelPredictionEnd?.Invoke(this, new ChannelPredictionEndArgs { Headers = headers, Notification = predictionEndNotification! }) ?? Task.CompletedTask);
                         break;
-                    case "channel.prediction.lock":
-                        var predictionLockNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelPredictionLock>>(body, _jsonSerializerOptions);
-                        OnChannelPredictionLock?.Invoke(this, new ChannelPredictionLockArgs { Headers = headers, Notification = predictionLockNotification! });
-                        break;
+
                     case "channel.prediction.progress":
                         var predictionProgressNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelPredictionProgress>>(body, _jsonSerializerOptions);
-                        OnChannelPredictionProgress?.Invoke(this, new ChannelPredictionProgressArgs { Headers = headers, Notification = predictionProgressNotification! });
+                        await (OnChannelPredictionProgress?.Invoke(this, new ChannelPredictionProgressArgs { Headers = headers, Notification = predictionProgressNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.raid":
                         var raidNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelRaid>>(body, _jsonSerializerOptions);
-                        OnChannelRaid?.Invoke(this, new ChannelRaidArgs { Headers = headers, Notification = raidNotification! });
+                        await (OnChannelRaid?.Invoke(this, new ChannelRaidArgs { Headers = headers, Notification = raidNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.subscribe":
                         var subscribeNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelSubscribe>>(body, _jsonSerializerOptions);
-                        OnChannelSubscribe?.Invoke(this, new ChannelSubscribeArgs { Headers = headers, Notification = subscribeNotification! });
+                        await (OnChannelSubscribe?.Invoke(this, new ChannelSubscribeArgs { Headers = headers, Notification = subscribeNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.subscription.end":
                         var subscriptionEndNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelSubscriptionEnd>>(body, _jsonSerializerOptions);
-                        OnChannelSubscriptionEnd?.Invoke(this, new ChannelSubscriptionEndArgs { Headers = headers, Notification = subscriptionEndNotification! });
+                        await (OnChannelSubscriptionEnd?.Invoke(this, new ChannelSubscriptionEndArgs { Headers = headers, Notification = subscriptionEndNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.subscription.gift":
                         var subscriptionGiftNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelSubscriptionGift>>(body, _jsonSerializerOptions);
-                        OnChannelSubscriptionGift?.Invoke(this, new ChannelSubscriptionGiftArgs { Headers = headers, Notification = subscriptionGiftNotification! });
+                        await (OnChannelSubscriptionGift?.Invoke(this, new ChannelSubscriptionGiftArgs { Headers = headers, Notification = subscriptionGiftNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.subscription.message":
                         var subscriptionMessageNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelSubscriptionMessage>>(body, _jsonSerializerOptions);
-                        OnChannelSubscriptionMessage?.Invoke(this, new ChannelSubscriptionMessageArgs { Headers = headers, Notification = subscriptionMessageNotification! });
+                        await (OnChannelSubscriptionMessage?.Invoke(this, new ChannelSubscriptionMessageArgs { Headers = headers, Notification = subscriptionMessageNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.unban":
                         var unbanNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelUnban>>(body, _jsonSerializerOptions);
-                        OnChannelUnban?.Invoke(this, new ChannelUnbanArgs { Headers = headers, Notification = unbanNotification! });
+                        await (OnChannelUnban?.Invoke(this, new ChannelUnbanArgs { Headers = headers, Notification = unbanNotification! }) ?? Task.CompletedTask);
                         break;
                     case "channel.update":
                         var channelUpdateNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ChannelUpdate>>(body, _jsonSerializerOptions);
-                        OnChannelUpdate?.Invoke(this, new ChannelUpdateArgs { Headers = headers, Notification = channelUpdateNotification! });
+                        await (OnChannelUpdate?.Invoke(this, new ChannelUpdateArgs { Headers = headers, Notification = channelUpdateNotification! }) ?? Task.CompletedTask);
                         break;
                     case "drop.entitlement.grant":
                         var dropGrantNotification = await JsonSerializer.DeserializeAsync<BatchedNotificationPayload<DropEntitlementGrant>>(body, _jsonSerializerOptions);
-                        OnDropEntitlementGrant?.Invoke(this, new DropEntitlementGrantArgs { Headers = headers, Notification = dropGrantNotification! });
+                        await (OnDropEntitlementGrant?.Invoke(this, new DropEntitlementGrantArgs { Headers = headers, Notification = dropGrantNotification! }) ?? Task.CompletedTask);
                         break;
                     case "extension.bits_transaction.create":
                         var extBitsTransactionCreateNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<ExtensionBitsTransactionCreate>>(body, _jsonSerializerOptions);
-                        OnExtensionBitsTransactionCreate?.Invoke(this, new ExtensionBitsTransactionCreateArgs { Headers = headers, Notification = extBitsTransactionCreateNotification! });
+                        await (OnExtensionBitsTransactionCreate?.Invoke(this, new ExtensionBitsTransactionCreateArgs { Headers = headers, Notification = extBitsTransactionCreateNotification! }) ?? Task.CompletedTask);
                         break;
                     case "stream.offline":
                         var streamOfflineNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<StreamOffline>>(body, _jsonSerializerOptions);
-                        OnStreamOffline?.Invoke(this, new StreamOfflineArgs { Headers = headers, Notification = streamOfflineNotification! });
+                        await (OnStreamOffline?.Invoke(this, new StreamOfflineArgs { Headers = headers, Notification = streamOfflineNotification! }) ?? Task.CompletedTask);
                         break;
                     case "stream.online":
                         var streamOnlineNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<StreamOnline>>(body, _jsonSerializerOptions);
-                        OnStreamOnline?.Invoke(this, new StreamOnlineArgs { Headers = headers, Notification = streamOnlineNotification! });
+                        await (OnStreamOnline?.Invoke(this, new StreamOnlineArgs { Headers = headers, Notification = streamOnlineNotification! }) ?? Task.CompletedTask);
                         break;
                     case "user.authorization.grant":
                         var userAuthGrantNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<UserAuthorizationGrant>>(body, _jsonSerializerOptions);
-                        OnUserAuthorizationGrant?.Invoke(this, new UserAuthorizationGrantArgs { Headers = headers, Notification = userAuthGrantNotification! });
+                        await (OnUserAuthorizationGrant?.Invoke(this, new UserAuthorizationGrantArgs { Headers = headers, Notification = userAuthGrantNotification! }) ?? Task.CompletedTask);
                         break;
                     case "user.authorization.revoke":
                         var userAuthRevokeNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<UserAuthorizationRevoke>>(body, _jsonSerializerOptions);
-                        OnUserAuthorizationRevoke?.Invoke(this, new UserAuthorizationRevokeArgs { Headers = headers, Notification = userAuthRevokeNotification! });
+                        await (OnUserAuthorizationRevoke?.Invoke(this, new UserAuthorizationRevokeArgs { Headers = headers, Notification = userAuthRevokeNotification! }) ?? Task.CompletedTask);
                         break;
                     case "user.update":
                         var userUpdateNotification = await JsonSerializer.DeserializeAsync<EventSubNotificationPayload<UserUpdate>>(body, _jsonSerializerOptions);
-                        OnUserUpdate?.Invoke(this, new UserUpdateArgs { Headers = headers, Notification = userUpdateNotification! });
+                        await (OnUserUpdate?.Invoke(this, new UserUpdateArgs { Headers = headers, Notification = userUpdateNotification! }) ?? Task.CompletedTask);
                         break;
                     default:
                         OnError?.Invoke(this, new OnErrorArgs { Reason = "Unknown_Subscription_Type", Message = $"Cannot parse unknown subscription type {subscriptionType}" });

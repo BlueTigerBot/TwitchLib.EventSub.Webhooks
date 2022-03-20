@@ -33,14 +33,16 @@ namespace BlueTigerBot.Twitch.EventSub.Webhooks.Example
             return Task.CompletedTask;
         }
 
-        private void OnChannelFollow(object sender, ChannelFollowArgs e)
+        private Task OnChannelFollow(object sender, ChannelFollowArgs e)
         {
             _logger.LogInformation($"{e.Notification.Event.UserName} followed {e.Notification.Event.BroadcasterUserName} at {e.Notification.Event.FollowedAt.ToUniversalTime()}");
+            return Task.CompletedTask;
         }
 
-        private void OnError(object sender, OnErrorArgs e)
+        private Task OnError(object sender, OnErrorArgs e)
         {
             _logger.LogError($"Reason: {e.Reason} - Message: {e.Message}");
+            return Task.CompletedTask;
         }
     }
 }
