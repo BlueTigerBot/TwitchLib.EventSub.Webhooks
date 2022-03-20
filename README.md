@@ -1,3 +1,7 @@
+# BlueTigerBot Fork
+
+This fork exists to adapt the event handlers in this project to be asynchronous rather than synchronous as in the original project. It exists solely for the BlueTigerBot project and is not intended for public use. All credit for the original library goes to the original creators and maintainers of the original repository found [here](https://github.com/TwitchLib/TwitchLib.EventSub.Webhooks).
+
 # TwitchLib.EventSub.Webhooks
 Provides an easy way to setup a Twitch EventSub Webhooks Server
 
